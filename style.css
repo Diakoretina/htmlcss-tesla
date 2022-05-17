@@ -77,6 +77,21 @@ ul > li {
 .desc h2{
     font-size: 40px;
 }
+h5::after{
+    display: block;
+    content: '';
+    width: 110px;
+    height: 1px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 895px;
+}
+section {
+    position: relative;
+    z-index: -1;
+    margin-top: -4px;
+}
 /*Button*/
 .btnpos{
     position: absolute;
@@ -84,9 +99,10 @@ ul > li {
     bottom: 10%;
 }
 .btn{
-    width: 300px;
+    width: auto;
     height: 50px;
     margin: 16px;
+    padding: 0 50px;
     border-radius: 400px;
     border: 0;
     text-align: center;
@@ -98,5 +114,7 @@ ul > li {
 .g{
     background-color: white;
      color: black;
-     width: 200px;
+}
+.a{
+    margin: 0 200px;
 }
