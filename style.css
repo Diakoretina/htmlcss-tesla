@@ -1,0 +1,57 @@
+/*General*/
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 14px;
+    vertical-align: middle;
+}
+a {
+    color: initial;
+    text-decoration: none;
+}
+  
+  a:active {
+    color: initial;
+}
+  
+  a:visited {
+    color: initial;
+}
+
+/*Nav*/
+.nav{
+    padding: 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: red;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+}
+ul > li {
+    display: inline-block;
+    padding: 4px 16px;
+    border-radius: 50px;
+}
+.mod{
+    position: absolute;
+    top: 24px;
+    left: 33%;
+    margin: 0, 16px;
+    text-align: center;
+}
+.menu{
+    position: absolute;
+    top: 24px;
+    right: 64px;
+}
+.nav li:hover {
+    background-color: lightgray;
+}
